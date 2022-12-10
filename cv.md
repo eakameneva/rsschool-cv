@@ -13,10 +13,10 @@
 Motivated and flexible, always trying to keep learning, good time-management and self-organization skills
 
 ## Skills
-* HTML
+* HTML 
 * CSS
 * JavaScript
-* Git/GitHub
+* Git
 
 ## Projects
 RS School [CV](https://github.com/eakameneva/rsschool-cv.git)
