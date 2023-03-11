@@ -63,3 +63,7 @@ footer {
 .avatar {
   border-radius: 8px;
 }
+
+.personal-info-description {
+  margin: 18px;
+}
