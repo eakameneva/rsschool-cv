@@ -30,7 +30,7 @@ function multiply(a, b){
 ## Education
 **November 2024 - present** [RS School Java Script Front-end Course](https://rs.school/)
 
-**April 2024** [HTML CSS on Stepik](https://stepik.org/course/100971/)
+**April 2024** [HTML CSS on Stepik](https://stepik.org/course/38218/)
 
 **April 2024** [HTML on HTML Academy](https://htmlacademy.ru/study/)
 
