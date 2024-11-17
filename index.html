@@ -4,64 +4,101 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" href="/assets/check-solid.svg" type="image/x-icon">
 </head>
 <body>
-
-  <h1>Ekaterina Kameneva</h1>
+  <div class="wrapper">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#contact-info">Contact Information</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+   
+      </ul>
+    </nav>
+  </header>
+<main>
+  <div class="about">
+    <div>
+    <h1>Ekaterina Kameneva</h1>
+    <section>
+      <h2 id="contact-info">Contact Information</h2>
+      <ul>
+        <li><img class="icon" src="/assets/phone-solid.svg" alt="icon"> Mobile phone:<a href="callto:+317437903"> +317437903</a></li>
+        <li><img class="icon" src="/assets/github-logo.svg" alt="icon"> GitHub: <a href="https://github.com/eakameneva" target="_blank">eakameneva</a></li>
+        <li><img class="icon" src="/assets/envelope-solid.svg" alt="icon"> Email: <a href="mailto:kate@gmail.com">kate@gmail.com</a></li>
+        <li><img class="icon" src="/assets/telegram-brands-solid.svg" alt="icon"> Telegram: <a href="https://t.me/katiakam" target="_blank">@katiakam</a></li>
+        <li><img class="icon" src="/assets/map-pin-solid.svg" alt="icon"> Amsterdam</li>
+      </ul>
+    </section>
+    </div>
+      <img class="photo" src="/assets/photo.jpeg" alt="personal photo">
+    
+  </div>
   <section>
-    <h2>Contact Information</h2>
+    <h2 id="about">About me</h2>
+    <p>&lt;p&gt;Hello World!&lt;/p&gt; <br> I am a junior front-end developer. I am motivated and flexible, always trying to keep learning, I have good time-management and self-organization skills.</p>
+  </section>
+
+  <section>
+    <h2 id="skills">Skills</h2>
     <ul>
-      <li>Mobile phone: +317437903</li>
-      <li>GitHub: <a href="https://github.com/githubacc" target="_blank">eakameneva</a></li>
-      <li>Email: <a href="mailto:kate@gmail.com">kate@gmail.com</a></li>
-      <li>Telegram: <a href="https://t.me/name" target="_blank">@katiakam</a></li>
+      <li><img class="icon" src="/assets/html5-brands-solid.svg" alt="icon">HTML</li>
+      <li><img class="icon" src="/assets/css3-alt-brands-solid.svg" alt="icon">CSS</li>
+      <li><img class="icon" src="/assets/js-brands-solid.svg" alt="icon">JavaScript</li>
+      <li><img class="icon" src="/assets/react-brands-solid.svg" alt="icon"> React</li>
+      <li><img class="icon" src="/assets/github-logo.svg" alt="icon">Git</li>
     </ul>
   </section>
 
   <section>
-    <h2>Personal Qualities</h2>
-    <p>Motivated and flexible, always trying to keep learning, good time-management and self-organization skills.</p>
-  </section>
-
-  <section>
-    <h2>Skills</h2>
+    <h2 id="projects">Projects</h2>
     <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Git</li>
+      <li><a href="https://todo-list-cvkf8q4vb-eakamenevas-projects.vercel.app/">To Do List App</a></li>
+      <li><a href="https://movies-7axpn67p0-eakamenevas-projects.vercel.app/">Movies App</a></li>
+      <li> <a href="https://aviasales-h5t05maha-eakamenevas-projects.vercel.app/">Aviasales Test Task</a></li>
     </ul>
-  </section>
-
-  <section>
-    <h2>Experience and Projects</h2>
-    <p>RS School CV</p>
   </section>
 
   <section>
     <h2>Code Example</h2>
-    <pre><code>function multiply(a, b) { return a * b }</code></pre>
+    <pre><code>function multiply(a, b) { 
+      return a * b 
+    }</code></pre>
   </section>
 
   <section>
-    <h2>Education</h2>
+    <h2 id="education">Education</h2>
     <ul>
-      <li>November 2024 - present: RS School JavaScript Front-end Course</li>
-      <li>April 2024: HTML CSS on Stepik</li>
-      <li>April 2024: HTML on HTML Academy</li>
-      <li>2017-2021: HSE (Bachelor)</li>
+      <li>November 2024 - present -<a href="https://rs.school/courses/javascript" target="_blank"> RS School JavaScript Front-end Course</a></li>
+      <li>April 2024 -<a href="https://stepik.org/course/38218/promo" target="_blank"> HTML & CSS on Stepik</a></li> 
+      <li>April 2024 - <a href="https://htmlacademy.ru/" target="_blank">HTML on HTML Academy</a></li>
+      <li>2017-2021 - HSE (Bachelor)</li>
     </ul>
   </section>
 
   <section>
-    <h2>Languages</h2>
+    <h2 id="languages">Languages</h2>
     <ul>
       <li>Russian: Native</li>
       <li>English: C1</li>
       <li>French: B2</li>
     </ul>
   </section>
-
+</main>
+<footer>
+<ul class="flex-container">
+  <li><a href="https://github.com/eakameneva" target="_blank"><img src="/assets/github-logo.svg" alt="logo"></a></li>
+  <li>2024</li>
+  <li><a href="https://rs.school/courses/javascript" target="_blank"><img src="/assets/rsschool-logo.svg" alt="logo"></a></li>
+</ul>
+</footer>
+</div>
 </body>
 </html>
 
